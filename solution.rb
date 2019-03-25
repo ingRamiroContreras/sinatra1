@@ -6,5 +6,5 @@ get '/' do
     else
         @nombre = params[:nombre]
     end
-    erb:index
+    erb :index
 end

@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Hola dime a quien quieres saludar</title>
+        <title></title>
     </head>
     <body>
-        <form action="/saludar" method="post">
-        <h1>Hola dime a quien quieres saludar</h1>
-            <input name="nombre" type="text" value="">
-            <input type="submit" value="Submit">
-        </form>
+        
+        <h1>Hola</h1>
+        
+        <% (@numeros).each do |numero|%>
+            <h2><%= numero %></h2><br>
+        <%end%>
+        
     </body>
 </html>

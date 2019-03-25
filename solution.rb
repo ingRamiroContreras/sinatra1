@@ -9,9 +9,14 @@ require "sinatra"
 #    erb :index
 #end
 
+HcUy6Re2LLBRtj
+
 get "/" do
-  erb :index
+  "HcUy6Re2LLBRtj"
 end
+#get "/" do
+#  erb :index
+#end
 
 post "/saludar" do
   @nombre = params["nombre"]

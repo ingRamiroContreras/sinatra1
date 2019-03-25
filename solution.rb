@@ -9,8 +9,6 @@ require "sinatra"
 #    erb :index
 #end
 
-HcUy6Re2LLBRtj
-
 get "/" do
   "HcUy6Re2LLBRtj"
 end
